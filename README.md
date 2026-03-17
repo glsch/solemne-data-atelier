@@ -18,10 +18,10 @@ python -m solemne_data_atelier download
 
 ##  Google Colab Installation
 #### 1. Import the Notebook
-* Go to the [repository link] and download the `notebooks/method_evaluation.ipynb` file to your computer.
+* Go to the [repository link] and download the `notebooks/method_evaluation_two_methods.ipynb` file to your computer.
 * Open [Google Colab](https://colab.research.google.com/).
 * From the welcome dialog, select the **Upload** tab.
-* Drag and drop the `method_evaluation.ipynb` file into the upload area.
+* Drag and drop the `method_evaluation_two_methods.ipynb` file into the upload area.
 
 #### 2. Enable GPU Acceleration (CUDA)
 To speed up model execution, you should enable a GPU instance:
