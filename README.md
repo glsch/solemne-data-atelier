@@ -88,7 +88,7 @@ python -m solemne_data_atelier vectorstore \
 This will create two additional collections with Bible verse embeddings by `some-huggingface-model` and `text-embedding-3-small`.
 
 ## Tweaking the baseline
-All tunable parameters are in the final two cells of `notebooks/method_evaluation.ipynb`.
+All tunable parameters are in the final two cells of `notebooks/method_evaluation_two_methods.ipynb`.
 
 ### 1. Model / Provider Selection (`build_embedding_method_context`)
 
