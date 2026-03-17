@@ -1,0 +1,4 @@
+[paths]
+data = "../../data"
+output = "../../output"
+models = "../../models"

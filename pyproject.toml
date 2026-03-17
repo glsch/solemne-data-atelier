@@ -1,0 +1,56 @@
+[build-system]
+requires      = ["setuptools>=68.2.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "solemne_data_atelier"
+version = "0.0.1"
+description = "SOLEMNE project data for text reuse atelier."
+readme = "README.md"
+authors = [
+    { name = "Gleb Schmidt", email = "gleb.schmidt@ru.nl" },
+]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+
+dependencies = [
+    "tomli; python_version < '3.11'",
+    "python-dotenv",
+    "tqdm",
+    "pandas",
+    "gdown",
+    "bs4",
+    "lxml",
+    "requests",
+    "openai",
+    "chromadb",
+    "sentence_transformers"
+
+]
+requires-python = ">=3.11.9"
+
+[project.optional-dependencies]
+dev = ["pytest"]
+app = ["streamlit>=1.30.0"]
+
+[project.urls]
+Homepage = "https://github.com/glsch"
+
+[project.scripts]
+ruse_of_reuse = "solemne_data_atelier.__main__:cli"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+ruse_of_reuse = [
+    "data/*",
+    "config.toml"
+]

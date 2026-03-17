@@ -1,0 +1,3 @@
+from solemne_data_atelier.commands.download import add_parser as add_download_parser
+from solemne_data_atelier.commands.preprocess import add_parser as add_preprocess_parser
+from solemne_data_atelier.commands.vectorstore import add_parser as add_vectorstore_parser
