@@ -5,7 +5,8 @@ Here you'll find everything you need to get started with the Ruse of Reuse hacka
 ## Local Installation
 #### 1. Installation
 ```bash
-git clone git@github.com:glsch/solemne_data_atelier.git
+git clone git@github.com:glsch/solemne-data-atelier.git
+cd solemne-data-atelier
 python -m pip install -e .
 ```
 
