@@ -1,4 +1,4 @@
-# Ruse of Reuse: Hackathon Starter Kit
+# solemne-data-atelier
 
 Here you'll find everything you need to get started with the Ruse of Reuse hackathon, including data access, method development, and evaluation tools.
 
